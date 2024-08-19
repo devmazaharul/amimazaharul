@@ -30,7 +30,7 @@ export default function Hero() {
 
         <div className='my-4 text-center md:text-left'>
             {actionButton.map((item=>(
-                <Link key={Math.random()} className={` bg-[#00bc91] text-gray-100  px-7 py-2 rounded-full hover:bg-[${hover_bakground}]`} href={item.path}>{item.name}</Link>
+                <Link key={Math.random()} className={` bg-[#00bc91] text-gray-100  px-7 py-2 rounded-full hover:bg-[${hover_bakground}]`} href="#">{item.name}</Link>
             )))}
           
         </div>

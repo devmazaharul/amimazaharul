@@ -1,9 +1,7 @@
 import { site_data } from '@/lib/site_data'
 import React from 'react'
 import Link  from 'next/link';
-
-import { MdWorkOutline } from "react-icons/md";
-
+import { FcBusinessman } from "react-icons/fc";
 
 export default function About() {
     const {about_section:{title,desc,work_status,contactInfo},colorSchima}=site_data;
@@ -11,7 +9,7 @@ export default function About() {
     <div className='py-16 px-4 bg-white rounded-xl  mb-4 '>
      <div>
      <p className='flex items-center gap-1 border rounded-full w-fit px-2 py-1 text-sm uppercase text-gray-500 mb-6 '>{title}
-        <MdWorkOutline className='text-[#00bc91]'/></p>
+        <FcBusinessman className='text-[#00bc91]'/></p>
        
      </div>
   

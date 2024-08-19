@@ -1,11 +1,10 @@
 import { site_data } from '@/lib/site_data'
 import React from 'react'
-import { FcBusinessman } from "react-icons/fc";
 import { SiAntdesign } from "react-icons/si";
 import { RiSeoLine } from "react-icons/ri";
 import { TbBrandBumble } from "react-icons/tb";
 import { FaNodeJs } from "react-icons/fa";
-
+import { MdWorkOutline } from "react-icons/md";
 export default function Services() {
     const {services_section:{title,desc,services},colorSchima}=site_data;
 
@@ -13,7 +12,7 @@ export default function Services() {
     <div className='py-16 px-4 bg-white rounded-xl  mb-4 '>
      <div>
      <p className='flex items-center gap-1 border rounded-full w-fit px-2 py-1 text-sm uppercase text-gray-500 mb-6 '>{title}
-        <FcBusinessman className='text-[#00bc91]'/></p>
+        <MdWorkOutline className='text-[#00bc91]'/></p>
        
      </div>
   
