@@ -14,7 +14,7 @@ export default function Header() {
   </div>
   <div className='col-span-3 '>
     {header_menu_list.map((item)=>(
-      <Link className=' px-3' href={item.path}>{item.name}</Link>
+      <Link key={Math.random()} className=' px-3' href={item.path}>{item.name}</Link>
     ))}
   </div>
   <div className='col-span-1'>

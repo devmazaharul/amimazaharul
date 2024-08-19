@@ -25,7 +25,7 @@ export default function Hero() {
             <p className='flex gap-1 items-center'> <IoIosTimer className='text-[#00bc91] text-lg'/>Full Time Job</p>
         </div>
         <div className='my-6 md:hidden '>
-            <Image src={heroImage} width={200} height={150} className='rounded-xl shadow-lg border mx-auto'/>
+            <Image  alt="site admin iamge" src={heroImage} width={200} height={150} className='rounded-xl shadow-lg border mx-auto'/>
         </div>
 
         <div className='my-4 text-center md:text-left'>
@@ -36,7 +36,7 @@ export default function Hero() {
         </div>
         </div>
         <div className='col-span-1 hidden md:block '>
-            <Image src={heroImage} width={200} height={150} className='rounded-xl shadow-lg border mx-auto'/>
+            <Image alt="site admin iamge" src={heroImage} width={200} height={150} className='rounded-xl shadow-lg border mx-auto'/>
         </div>
        </div>
 

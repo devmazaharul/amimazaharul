@@ -8,7 +8,7 @@ export default function Sidebar() {
   return (
     <div className='h-full bg-white px-4 py-4 rounded-md'>
         <div className=' text-center mx-auto   '>
-            <Image src={profile_img} className='mx-auto text-center py-3 rounded-full' width={150} height={150}/>
+            <Image alt="site admin iamge" src={profile_img} className='mx-auto text-center py-3 rounded-full' width={150} height={150}/>
             <p className='text-lg font-semibold '>{name}</p>
             <p className={`text-[${colorSchima.text_color}]  border-b pb-4`}>{title}</p>
         </div>
