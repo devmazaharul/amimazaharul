@@ -26,7 +26,7 @@ export default function Sidebar() {
                 </div>
             })}
             <div className='my-7 text-center'>
-                <Link target='_blank' className={`bg-[${colorSchima.primary}] hover:bg-[${colorSchima.hover_bakground}] px-6 py-2 rounded-full text-gray-100`} href={download_link}>Download</Link>
+                <Link target='_blank' className={`bg-[#00bc91]hover:bg-[${colorSchima.hover_bakground}] px-6 py-2 rounded-full text-gray-100`} href={download_link}>Download</Link>
             </div>
         </div>
     </div>
