@@ -30,7 +30,7 @@ export default function Education() {
                 className=" md:m-2 my-2 text-gray-500  rounded-xl mx-auto "
               >
                 <table
-                  className={`block  rounded-md px-4 py-6 border border-r-[#00bc91]`}
+                  className={`block  rounded-md px-4 py-6 border border-l-[#00bc91]`}
                 >
                   <thead>
                     <tr>

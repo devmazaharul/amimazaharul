@@ -10,7 +10,7 @@ export const site_data = {
     name: "Mazaharul islam",
     title: "Web developer",
     personal_info: {
-      download_link: "https://dev-maza.vercel.app/mazaharul_resume.pdf",
+      download_link: "/mazaharul_resume.pdf",
       age: "19",
       city: "Jessore",
       residence: "Bangladesh",
@@ -51,7 +51,7 @@ export const site_data = {
 
   hero_section: {
     heroImage: "/maza-original_processed1.jpg",
-    title: "Digital Landscape",
+    title: "Web developer",
     sortDesc:
       "I am a Frontend Developer at heart and, i create features that are best suited for the job at hand. ",
     actionButton: [

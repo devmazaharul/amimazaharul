@@ -17,12 +17,12 @@ export default function Sidebar() {
             <div className='flex justify-between items-center'><p> City:</p> <p className='text-gray-500'>{city}</p> </div>
             <div className='flex justify-between items-center'><p> Age:</p> <p className='text-gray-500'> {age}</p> </div>
         </div>
-        <div className=' px-2 my-4 py-2 rounded-lg'>
-            <p>Skills</p>
+        <div className=' px-2 my-4   border-t py-6'>
+            <p className='font-semibold'>Skills</p>
             {skills.map((item)=>{
-                return <div key={Math.random()} className='flex justify-between leading-8 border border-gray-200 rounded-lg gray-red-500 py-1 px-2 my-2  '>
+                return <div key={Math.random()} className='flex justify-between leading-8  rounded-lg gray-red-500 py-1 px-2 my-2  '>
                     <p className='text-gray-500'>{item.name}</p>
-                    <p className={`${item.percent>70?'text-sky-500':"text-yellow-500"}`}>{item.percent}%</p>
+                    <p className={`${item.percent>70?'text-gray-700':"text-yellow-400"}`}>{item.percent}%</p>
                 </div>
             })}
             <div className='my-7 text-center'>

@@ -22,25 +22,24 @@ export default function About() {
           <h1 className=" font-bold text-4xl capitalize pb-3 text-[#00bc91]">
             {title}
           </h1>
-          <p className="text-gray-500">{desc}</p>
+          <p className="text-gray-500 pb-8">{desc}</p>
 
-          <div className="my-4 grid md:grid-cols-2 grid-cols-1 ">
-            {contactInfo.map((item) => (
-              <div key={Math.random()} className=" m-1 text-gray-500  ">
-                <div className="border border-gray-100  block py-3 px-2 rounded-md">
-                  {item.name == "Github" || item.name == "Web" ? (
-                    <Link target="_blank" href={item.text}>
-                      {item.name} : {item.text}
-                    </Link>
-                  ) : (
-                    <p>
-                      {item.name} : {item.text}
-                    </p>
-                  )}
-                </div>
-              </div>
-            ))}
-          </div>
+
+<table className=" w-full justify-between pb-8   p-3">
+<thead>
+          {contactInfo.map((item)=>(
+          
+                <tr className='rounded-xl '>
+                  <td className="py-2 px-3 text-left md:w-[30%] w-[30%] ">{item.name}  </td>
+                  <td className="py-2 px-3 text-left md:w-[10%]"> : </td>
+                  <td className="py-2 px-3 text-justify md:w-[58%] w-[70%] ">{item.text}</td>
+                </tr>
+              
+          ))}
+
+</thead>
+            </table>
+
           <div className="my-4 grid md:grid-cols-4 grid-cols-2  text-center ">
             {work_status.map((item) => (
               <div
