@@ -1,10 +1,12 @@
 import { site_data } from '@/lib/site_data'
 import React from 'react'
 import { SiAntdesign } from "react-icons/si";
-import { RiSeoLine } from "react-icons/ri";
+
 import { TbBrandBumble } from "react-icons/tb";
 import { FaNodeJs } from "react-icons/fa";
 import { MdWorkOutline } from "react-icons/md";
+import { MdGraphicEq } from "react-icons/md";
+
 export default function Services() {
     const {services_section:{title,desc,services},colorSchima}=site_data;
 
@@ -27,7 +29,7 @@ export default function Services() {
                <div key={Math.random()} className=' md:m-2 my-2 text-gray-500 border rounded-xl mx-auto '>
 
              <div className=' block  rounded-md px-4 py-6 text-justify leading-6'>
-                <h1 className='text-xl'>{item.iconName=="web_design"?<SiAntdesign className={`text-[${colorSchima.text_color}] text-2xl`}/>:item.iconName=="web_development"?<FaNodeJs className={`text-[${colorSchima.text_color}] text-2xl`}/>:item.iconName=="seo"?<RiSeoLine className={`text-[${colorSchima.text_color}] text-2xl`}/>:item.iconName=="branding"?<TbBrandBumble className={`text-[${colorSchima.text_color}] text-2xl`}/>:'Icon'}</h1>
+                <p className='pb-2'>{item.iconName=="web_design"?<SiAntdesign className={`text-[${colorSchima.text_color}] text-2xl`}/>:item.iconName=="web_development"?<FaNodeJs className={`text-[${colorSchima.text_color}] text-2xl`}/>:item.iconName=="seo"?<MdGraphicEq className={`text-[${colorSchima.text_color}] text-2xl`}/>:item.iconName=="branding"?<TbBrandBumble className={`text-[${colorSchima.text_color}] text-2xl`}/>:'Icon'}</p>
                 <h1 className='text-xl font-semibold'>{item.name}</h1>
                 <p>{item.sortdescribe}</p>
                

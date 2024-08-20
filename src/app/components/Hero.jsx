@@ -8,7 +8,7 @@ import { IoIosTimer } from "react-icons/io";
 
 export default function Hero() {
     const {hero_section:{title,sortDesc,actionButton,heroImage},colorSchima:{primary,hover_bakground}}=site_data;
-  return (
+  return (       
     <div className='py-16 px-4 bg-white rounded-xl  mb-4 '>
      <div>
      <p className='flex items-center gap-1 border rounded-full w-fit px-2 py-1 text-sm text-gray-500 mb-6 '>INTRODUCE <IoHomeOutline className='text-[#00bc91]'/></p>
