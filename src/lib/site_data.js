@@ -100,8 +100,8 @@ export const site_data = {
         text: "Handled Projects",
       },
       {
-        title: "5 start",
-        text: "Marketplaces",
+        title: "5 start is",
+        text: "Marketplace",
       },
       {
         title: "18",
