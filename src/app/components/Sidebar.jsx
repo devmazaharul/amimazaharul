@@ -22,7 +22,7 @@ export default function Sidebar() {
             {skills.map((item)=>{
                 return <div key={Math.random()} className='flex justify-between leading-8  rounded-lg gray-red-500 py-1 px-2 my-2  '>
                     <p className='text-gray-500 capitalize'>{item.name}</p>
-                    <p className={`${item.percent>70?'text-gray-700':"text-yellow-400"}`}>{item.percent}%</p>
+                    <p className={`${item.percent>70?'text-gray-700':"text-yellow-500"}`}>{item.percent}%</p>
                 </div>
             })}
             <div className='my-7 text-center'>

@@ -29,11 +29,12 @@ export default function About() {
             <thead>
               {contactInfo.map((item) => (
                 <tr key={Math.random()} className="rounded-xl ">
-                  <td className="py-2 px-3 text-left md:w-[30%] w-[30%] ">
-                    {item.name}{" "}
+                  <td className="py-2 px-3 text-left md:w-[30%] hidden md:block  text-sm md:text-md ">
+                    {item.name}
                   </td>
-                  <td className="py-2 px-3 text-left md:w-[10%]"> : </td>
-                  <td className="py-2 px-3 text-justify md:w-[58%] w-[70%] ">
+                  <td className="py-2 md:px-3 text-left md:w-[10%]  md:hidden text-sm md:text-md"> {item.name.slice(0,2)}. </td>
+                  <td className="py-2 md:px-3 text-left md:w-[10%]   text-sm md:text-md"> : </td>
+                  <td className="py-2 px-3 text-left md:w-[58%] w-[80%] text-sm md:text-md">
                     {item.text}
                   </td>
                 </tr>
