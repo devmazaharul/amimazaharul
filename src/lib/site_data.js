@@ -11,7 +11,7 @@ export const site_data = {
     title: "Web developer",
     personal_info: {
       download_link: "/mazaharul_resume.pdf",
-      age: "19",
+      age: "18",
       city: "Jessore",
       residence: "Bangladesh",
       skills: [
@@ -199,7 +199,7 @@ export const site_data = {
         name: "Alex johnson",
         message:
           " is a game-changer. Their coding expertise and commitment to quality make every project a success.",
-        ratig: 2,
+        ratig: 5,
         status: "Developer",
         client_image: "/author1.png",
       },
@@ -207,7 +207,7 @@ export const site_data = {
         name: "Milay Marthin",
         message:
           " is a game-changer. Their coding expertise and commitment to quality make every project a success.",
-        ratig: 3,
+        ratig: 4,
         status: "Developer",
         client_image: "/author1.png",
       },
@@ -215,14 +215,22 @@ export const site_data = {
         name: "Alex johnson",
         message:
           " is a game-changer. Their coding expertise and commitment to quality make every project a success.",
-        ratig: 5,
+        ratig: 2,
+        status: "Developer",
+        client_image: "/author1.png",
+      },
+      {
+        name: "Mazaharul islam",
+        message:
+          " is a game-changer. Their coding expertise and commitment to quality make every project a success.",
+        ratig: 3,
         status: "Developer",
         client_image: "/author1.png",
       },
     ],
   },
   contact_info: {
-    title: "Contact Me.",
+    title: "Contact Me",
     sortDesc:
       "I design products that are more than pretty. I make them shippable and usable, ttempor non mollit dolor et do aute.",
     contactForm: [

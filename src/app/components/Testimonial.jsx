@@ -1,11 +1,11 @@
 import { site_data } from "@/lib/site_data";
 import Image from "next/image";
 import React from "react";
-import { CiStar } from "react-icons/ci";
+import { TbMessage2Star } from "react-icons/tb";
 
 export default function Testimonial() {
   const {
-    testimonial: { title, sortDesc, clientInfo }
+    testimonial: { title, sortDesc, clientInfo },
   } = site_data;
 
   return (
@@ -13,7 +13,7 @@ export default function Testimonial() {
       <div>
         <p className="flex items-center gap-1 border rounded-full w-fit px-2 py-1 text-sm uppercase text-gray-500 mb-6 ">
           TESTIMONIAL
-          <CiStar className="text-[#00bc91]" />
+          <TbMessage2Star className="text-[#00bc91]" />
         </p>
       </div>
 
@@ -28,7 +28,7 @@ export default function Testimonial() {
             {clientInfo.map((item) => (
               <div
                 key={Math.random()}
-                className=" border  p-4   md:m-2 my-2 text-gray-500  rounded-md text-center mx-auto "
+                className=" shadow-sm border border-gray-100  p-4   md:m-2 my-2 text-gray-500  rounded-md text-center mx-auto "
               >
                 <Image
                   src={item.client_image}
@@ -48,8 +48,8 @@ export default function Testimonial() {
                     ? "****"
                     : "**"}
                 </p>
-                <h1>{item.message}</h1>
-                <h1 className="text-lg font-semibold text-[#00bc91]">
+                <h1 className="capitalize">{item.message}</h1>
+                <h1 className="text-lg font-semibold capitalize text-[#00bc91]">
                   {item.name}
                 </h1>
                 <h1>{item.status}</h1>

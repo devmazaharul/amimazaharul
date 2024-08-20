@@ -1,7 +1,8 @@
 import { site_data } from "@/lib/site_data";
 import React from "react";
-import Link from "next/link";
-import { FcAbout } from "react-icons/fc";
+
+import { TbMessage2Question } from "react-icons/tb";
+
 
 export default function About() {
   const {
@@ -12,8 +13,8 @@ export default function About() {
     <div className="py-16 px-4 bg-white rounded-xl  mb-4 ">
       <div>
         <p className="flex items-center gap-1 border rounded-full w-fit px-2 py-1 text-sm uppercase text-gray-500 mb-6 ">
-          {title}
-          <FcAbout className="text-[#00bc91]" />
+         about
+          <TbMessage2Question className="text-[#00bc91]" />
         </p>
       </div>
 
@@ -24,23 +25,23 @@ export default function About() {
           </h1>
           <p className="text-gray-500 pb-8">{desc}</p>
 
-
-<table className=" w-full justify-between pb-8   p-3">
-<thead>
-          {contactInfo.map((item)=>(
-          
-                <tr className='rounded-xl '>
-                  <td className="py-2 px-3 text-left md:w-[30%] w-[30%] ">{item.name}  </td>
+          <table className=" w-full justify-between pb-8   p-3">
+            <thead>
+              {contactInfo.map((item) => (
+                <tr className="rounded-xl ">
+                  <td className="py-2 px-3 text-left md:w-[30%] w-[30%] ">
+                    {item.name}{" "}
+                  </td>
                   <td className="py-2 px-3 text-left md:w-[10%]"> : </td>
-                  <td className="py-2 px-3 text-justify md:w-[58%] w-[70%] ">{item.text}</td>
+                  <td className="py-2 px-3 text-justify md:w-[58%] w-[70%] ">
+                    {item.text}
+                  </td>
                 </tr>
-              
-          ))}
+              ))}
+            </thead>
+          </table>
 
-</thead>
-            </table>
-
-          <div className="my-4 grid md:grid-cols-4 grid-cols-2  text-center ">
+          <div className="my-8 grid md:grid-cols-4 grid-cols-2  text-center ">
             {work_status.map((item) => (
               <div
                 key={Math.random()}

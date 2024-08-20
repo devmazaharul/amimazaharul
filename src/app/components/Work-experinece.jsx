@@ -1,6 +1,6 @@
 import { site_data } from "@/lib/site_data";
 import React from "react";
-import { LuBrain } from "react-icons/lu";
+import { GiNetworkBars } from "react-icons/gi";
 
 export default function Workexperinece() {
   const {
@@ -12,7 +12,7 @@ export default function Workexperinece() {
       <div>
         <p className="flex items-center gap-1 border rounded-full w-fit px-2 py-1 text-sm uppercase text-gray-500 mb-6 ">
           {title}
-          <LuBrain className="text-[#00bc91]" />
+          <GiNetworkBars className="text-[#00bc91]" />
         </p>
       </div>
 

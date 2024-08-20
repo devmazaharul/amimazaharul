@@ -1,4 +1,4 @@
-import { Space_Grotesk } from "next/font/google";
+import { Space_Grotesk} from "next/font/google";
 import "./globals.css";
 
 import Sidebar from "./components/Sidebar";
@@ -6,6 +6,7 @@ import { Toaster } from "react-hot-toast";
 
 
 const banglaFont=Space_Grotesk({subsets:["latin"],weight:"400",style:"normal"})
+
 
 export const metadata = {
   title: "Mazaharul",

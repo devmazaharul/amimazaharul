@@ -2,7 +2,9 @@
 import { site_data } from '@/lib/site_data'
 import React from 'react'
 import toast from 'react-hot-toast';
-import { LuContact } from "react-icons/lu";
+
+import { RiMessage2Line } from "react-icons/ri";
+
 
 
 const formObj={
@@ -36,7 +38,7 @@ const handleSubmit=(e)=>{
     <div className='py-16 px-4 bg-white rounded-xl  mb-4 '>
      <div>
      <p className='flex items-center gap-1 border rounded-full w-fit px-2 py-1 text-sm uppercase text-gray-500 mb-6 '>Contact
-        <LuContact className='text-[#00bc91]'/></p>
+        <RiMessage2Line className='text-[#00bc91]'/></p>
        
      </div>
   
