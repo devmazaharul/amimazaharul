@@ -28,7 +28,7 @@ export default function About() {
           <table className=" w-full justify-between pb-8   p-3">
             <thead>
               {contactInfo.map((item) => (
-                <tr className="rounded-xl ">
+                <tr key={Math.random()} className="rounded-xl ">
                   <td className="py-2 px-3 text-left md:w-[30%] w-[30%] ">
                     {item.name}{" "}
                   </td>

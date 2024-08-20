@@ -17,7 +17,7 @@ export default function Hero() {
   
        <div className='md:grid md:grid-cols-3'>
         <div className='md:col-span-2'>
-        <h1 className=' font-bold text-3xl capitalize pb-2'>I a'm Full-stack </h1>
+        <h1 className=' font-bold text-3xl capitalize pb-2'>I am Full-stack </h1>
         <h1 className=' font-bold text-4xl capitalize pb-3 text-[#00bc91]'>{title}</h1>
         <p className='text-gray-500'>{sortDesc}</p>
         <div className='flex w-fit items-center gap-2 text-gray-400 text-sm py-3'>
