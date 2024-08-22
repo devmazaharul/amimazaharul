@@ -63,7 +63,7 @@ export const site_data = {
   },
   about_section: {
     title: "About Me",
-    desc: "I'm Mazaharul Islam, a dedicated web developer with a passion for crafting dynamic and user-friendly websites. With expertise in both front-end and back-end technologies, I specialize in creating seamless digital experiences using HTML, CSS, JavaScript, and frameworks like Next.js, React.js and Node.js. My goal is to turn ideas into reality with clean, efficient code. Always eager to learn and innovate, I’m committed to delivering high-quality solutions that exceed expectations.",
+    desc: "I'm Mazaharul Islam, a dedicated web developer with a passion for crafting dynamic and user-friendly websites.I specialize in creating seamless digital experiences using Next.js, React.js and Node.js. My goal is to turn ideas into reality with clean, efficient code.",
     contactInfo: [
       {
         name: "Phone",
@@ -232,7 +232,7 @@ export const site_data = {
   contact_info: {
     title: "Contact Me",
     sortDesc:
-      "I design products that are more than pretty. I make them shippable and usable, ttempor non mollit dolor et do aute.",
+      "You can contact for any problem or help. Through the form below. I hope it will be useful.",
     contactForm: [
       {
         type: "text",
