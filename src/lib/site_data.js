@@ -63,7 +63,7 @@ export const site_data = {
   },
   about_section: {
     title: "About Me",
-    desc: "Hi, my name is Mazaharul islam and I began using WordPress when first began. spent most of my waking hours for the last ten years designing, programming and operating WordPress sites go beyond with exclusive designer.",
+    desc: "I'm Mazaharul Islam, a dedicated web developer with a passion for crafting dynamic and user-friendly websites. With expertise in both front-end and back-end technologies, I specialize in creating seamless digital experiences using HTML, CSS, JavaScript, and frameworks like Next.js, React.js and Node.js. My goal is to turn ideas into reality with clean, efficient code. Always eager to learn and innovate, I’m committed to delivering high-quality solutions that exceed expectations.",
     contactInfo: [
       {
         name: "Phone",
@@ -75,7 +75,7 @@ export const site_data = {
       },
       {
         name: "Web",
-        text: "https://dev-maza.vercel.app",
+        text: "https://amimazaharul.vercel.app",
       },
       {
         name: "Github",
@@ -87,7 +87,7 @@ export const site_data = {
       },
       {
         name: "Address",
-        text: "Jessore Bangladesh",
+        text: "Jessore, Bangladesh",
       },
     ],
     work_status: [
@@ -100,7 +100,7 @@ export const site_data = {
         text: "Handled Projects",
       },
       {
-        title: "5 start is",
+        title: "5 start in",
         text: "Marketplace",
       },
       {
@@ -180,20 +180,20 @@ export const site_data = {
         name: "Google",
         title: "BSc in Engineering",
         text: "Owing to advancements in product other designer technologies aute voluptate.",
-        stayTime: "Mar, 2022 - Current",
+        stayTime: "Mar, 2020",
       },
       {
         name: "Oxford University",
         title: "Human Interface Designer",
         text: "Owing to advancements in product other designer technologies aute voluptate.",
-        stayTime: "Mar, 2022 - Current",
+        stayTime: "Mar, 2019",
       },
     ],
   },
   testimonial: {
     title: "What People Say",
     sortDesc:
-      "I design products that are more than pretty. I make them shippable and usable, tempor non mollit dolor et do aute.",
+      "You can contact for any problem or help. Through the form below. I hope it will be useful.",
     clientInfo: [
       {
         name: "Alex johnson",
