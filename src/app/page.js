@@ -1,4 +1,5 @@
 import About from "./components/About";
+import { CarouselDemo } from "./components/Carosel";
 import Conactpage from "./components/Contact";
 import Education from "./components/Education";
 import Footer from "./components/Footer";
@@ -19,7 +20,7 @@ export default function Home() {
   <Services/>
   <Workexperinece/>
   <Education/>
-  <Testimonial/>
+  <CarouselDemo/>
   <Conactpage/>
   <Footer/>
 
