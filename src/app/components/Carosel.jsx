@@ -17,11 +17,11 @@ export function CarouselDemo() {
 
   return (
    <div className="w-full my-6  py-16 px-4 bg-white rounded-xl  mb-4">
-     <Carousel className=" md:w-[90%] w-[80%] mx-auto ">
+     <Carousel className=" md:w-[90%] w-[80%] mx-auto  ">
       <CarouselContent className="w-[400px] ">
         {clientInfo.map((item,i)=>{
           return (
-            <CarouselItem key={i} >
+            <CarouselItem  key={i} >
             <div className="p-1 ">
               <Card className="p-1 border-none rounded-none">
                 <CardContent className="  p-4   md:m-2 my-2 text-gray-500  rounded-md text-center mx-auto">
