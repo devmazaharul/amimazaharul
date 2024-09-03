@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={banglaFont.className}>
-        <div className="bg-gray-100 h-full px-4 py-2 md:grid md:grid-cols-4">
+        <div className="bg-gray-100  h-full px-4 py-2 md:grid md:grid-cols-4">
        <div className="md:col-span-1 ">
        <Sidebar/>
        </div>

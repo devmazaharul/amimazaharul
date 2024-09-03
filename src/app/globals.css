@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+HR+Lijeva:wght@100..400&family=Playwrite+PT:wght@100..400&display=swap');
+
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -66,4 +70,11 @@
   body {
     @apply bg-background text-foreground;
   }
+}
+
+.specialFont{
+  font-family: "Playwrite PT", cursive;
+  font-optical-sizing: auto;
+  font-weight:500;
+  font-style: normal;
 }
