@@ -6,7 +6,7 @@ import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Services from "./components/Services";
 import Testimonial from "./components/Testimonial";
-import "./components/index.css"
+
 import Workexperinece from "./components/Work-experinece";
 
 export default function Home() {
