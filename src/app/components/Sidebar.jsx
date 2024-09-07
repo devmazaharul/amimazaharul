@@ -11,10 +11,10 @@ export default function Sidebar() {
         <div className=' text-center mx-auto   '>
             <Image alt="site admin iamge" src={profile_img} className='mx-auto text-center py-3 rounded-full' width={150} height={200}/>
     <div><p className='font-semibold text-lg capitalize'>{name}</p></div>
-            <p className={` text-sm capitalize specialFont border-b pb-4`}>{title}</p>
+            <p className={` text-sm capitalize  border-b pb-4`}>{title}</p>
         </div>
         <div className='py-3 leading-8'>
-            <div className='flex justify-between items-center capitalize'><p> Residence:</p> <p className='text-gray-500 specialFont'>{residence}</p> </div>
+            <div className='flex justify-between items-center capitalize'><p> Residence:</p> <p className='text-gray-500 '>{residence}</p> </div>
             <div className='flex justify-between items-center capitalize'><p> City:</p> <p className='text-gray-500'>{city}</p> </div>
             <div className='flex justify-between items-center capitalize'><p> Age:</p> <p className='text-gray-500'> {age}+</p> </div>
             <div className='flex justify-between items-center capitalize'><p> Status:</p> <AiOutlineSafetyCertificate className='text-[#00bc91] text-lg'/> </div>
