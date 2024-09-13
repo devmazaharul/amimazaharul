@@ -18,19 +18,51 @@ export default function useConactpage() {
 
 
 const [contactstate, setcontactstate] = React.useState({...formObj})
+const [loading,setLoading]=React.useState(false)
 
 const handleChange=(value,name)=>{
     setcontactstate({...contactstate,[name]:value})
 }
 
-const handleSubmit=(e)=>{
+const handleSubmit=async(e)=>{
     e.preventDefault()
+    setLoading(true)
+   try {
     if(contactstate.name !=="" && contactstate.email!=="" && contactstate.message!==""){
-        toast.success("Thanks " + contactstate.name )
-        setcontactstate(formObj)
+        const makeMessage=`Maza... <br/> I am  ${contactstate.name} ${contactstate.message} <br/> My email address is  ${contactstate.email}`
+
+        const result=await fetch("http://localhost:3000/api/mail",{
+            method:"POST",
+            headers:{
+                "content-type":"application/json"
+            },
+            body:JSON.stringify({messagebody:makeMessage})
+
+        })
+        if(result.ok){
+            const {status,message}=await result.json()
+            if(status==200){
+                toast.success("Thanks " + contactstate.name )
+                setcontactstate(formObj)
+                setLoading(false)
+            }else if(status==201){
+                toast.error(message)
+                setcontactstate(formObj)
+                setLoading(false)
+            }else{
+                toast.error(message)
+                setcontactstate(formObj)
+                setLoading(false)
+            }
+        }
     }else{
         toast.error("Empty box")
+        setLoading(false)
     }
+   } catch (error) {
+    toast.error("Connection error")
+    setLoading(false)
+   }
 
 }
 
@@ -51,14 +83,14 @@ const handleSubmit=(e)=>{
         <form onSubmit={handleSubmit} className='my-4 md:w-[50%] mx-auto'>
            
                <div  className=' my-4 text-gray-500  '>
-                <input onChange={(e)=>handleChange(e.target.value,"name")} value={contactstate.name} type="text" placeholder="Name" className='w-full border rounded-md py-2  px-3 outline-none' />
+                <input onChange={(e)=>handleChange(e.target.value,"name")} value={contactstate.name} type="text" placeholder="Name" className='w-full capitalize border rounded-md py-2  px-3 outline-none' />
                </div>
                <div  className=' my-4 text-gray-500  '>
                 <input onChange={(e)=>handleChange(e.target.value,"email")} value={contactstate.email} type="email" placeholder="Email" className='w-full border rounded-md py-2  px-3 outline-none' />
                </div>
       
             <textarea onChange={(e)=>handleChange(e.target.value,"message")} value={contactstate.message} className='w-full border rounded-md py-2  px-3 outline-none' placeholder='Message'></textarea>
-            <button  type='submit' className='bg-[#00bc91] text-white w-fit px-6 py-2 rounded-full'>Send message</button>
+            <button  type='submit' className='bg-[#00bc91] text-white w-fit px-6 py-2 rounded-full'>{loading?"Sending...":"Send message"}</button>
           
         </form>
        
