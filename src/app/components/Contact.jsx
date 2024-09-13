@@ -31,7 +31,7 @@ const handleSubmit=async(e)=>{
     if(contactstate.name !=="" && contactstate.email!=="" && contactstate.message!==""){
         const makeMessage=`Maza... <br/> I am  ${contactstate.name} ${contactstate.message} <br/> My email address is  ${contactstate.email}`
 
-        const result=await fetch("http://localhost:3000/api/mail",{
+        const result=await fetch("https://amimazaharul.vercel.app/api/mail",{
             method:"POST",
             headers:{
                 "content-type":"application/json"
