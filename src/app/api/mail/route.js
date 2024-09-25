@@ -23,7 +23,7 @@ try {
         from: '"amimazaharul"<freelancermazaharul1@gmail.com>',
         to: "expertmazaharul@gmail.com", // list of receivers
         subject: "Thanks for contact", // Subject line
-        html: <p style={{fontFamily:"monospace"}}>{messagebody}</p>
+        html: `<p style={{fontFamily:"monospace"}}>${messagebody}</p>`
       });
       if(info){
         return NextResponse.json({status:200,message:"Success"});
