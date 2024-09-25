@@ -29,7 +29,7 @@ const handleSubmit=async(e)=>{
     setLoading(true)
    try {
     if(contactstate.name !=="" && contactstate.email!=="" && contactstate.message!==""){
-        const makeMessage=`<p style={{fontFamily:"monospace"}}> I am   ${contactstate.name} <br/> ${contactstate.message} <br/> My email address is  ${contactstate.email}</p>`
+        const makeMessage=`<p style="font-family: monospace"> Mailer: ${contactstate.name} <br/> ${contactstate.message} <br/> My email address is  ${contactstate.email}</p>`
 
         const result=await fetch("https://amimazaharul.vercel.app/api/mail",{
             method:"POST",
