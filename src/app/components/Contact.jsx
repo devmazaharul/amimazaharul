@@ -32,7 +32,7 @@ export default function useConactpage() {
         contactstate.email !== "" &&
         contactstate.message !== ""
       ) {
-        let writeMsg = `<div  style="font-family: monospace;text-transform: capitalize;line-height: 13px><p>mailer name: ${contactstate.name}</p><p>mailer email :${contactstate.email}</p><div ><p>Message,</p> <p style="line-height: 20px">${contactstate.message}</p></div><div>`;
+        let writeMsg = `<p  style="font-family: monospace;text-transform: capitalize;line-height: 13px><p>mailer name: ${contactstate.name}</p><p>mailer email :${contactstate.email}</p><div ><p>Message,</p> <p style="line-height: 20px">${contactstate.message}</p></div><div>`;
 
         const result = await fetch("https://amimazaharul.vercel.app/api/mail", {
           method: "POST",
