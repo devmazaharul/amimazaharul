@@ -20,7 +20,7 @@ try {
       }); 
 
       const info = await transporter.sendMail({
-        from: '"MAZA"<freelancermazaharul1@gmail.com>',
+        from: '"amimazaharul"<freelancermazaharul1@gmail.com>',
         to: "expertmazaharul@gmail.com", // list of receivers
         subject: "Thanks for contact", // Subject line
         html: messagebody
