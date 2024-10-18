@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 import * as React from "react"
+=======
+>>>>>>> origin/master
 import Image from "next/image"
 import { Card, CardContent } from "@/components/ui/card"
 import {
@@ -17,11 +20,20 @@ export function CarouselDemo() {
 
 
   return (
+<<<<<<< HEAD
     <Carousel className=" w-full mx-auto my-6  py-16 px-4 bg-white rounded-xl  mb-4">
       <CarouselContent className="w-[500px] ">
         {clientInfo.map((item,i)=>{
           return (
             <CarouselItem key={i} c>
+=======
+   <div className="w-full my-6  py-16 px-4 bg-white rounded-xl  mb-4">
+     <Carousel className=" md:w-[90%] w-[80%] mx-auto  ">
+      <CarouselContent className="w-[400px] ">
+        {clientInfo.map((item,i)=>{
+          return (
+            <CarouselItem  key={i} >
+>>>>>>> origin/master
             <div className="p-1 ">
               <Card className="p-1 border-none rounded-none">
                 <CardContent className="  p-4   md:m-2 my-2 text-gray-500  rounded-md text-center mx-auto">
@@ -61,5 +73,9 @@ export function CarouselDemo() {
       <CarouselPrevious />
       <CarouselNext />
     </Carousel>
+<<<<<<< HEAD
+=======
+   </div>
+>>>>>>> origin/master
   )
 }

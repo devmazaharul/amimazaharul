@@ -5,7 +5,7 @@ export default function Footer() {
   const { footer } = site_data;
   return (
     <div>
-      <p>{footer}</p>
+      <p className="specialFont">{footer}</p>
     </div>
   );
 }
