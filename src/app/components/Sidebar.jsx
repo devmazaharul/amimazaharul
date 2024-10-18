@@ -10,14 +10,14 @@ export default function Sidebar() {
     <div className='h-full bg-white px-4 py-4 rounded-md'>
         <div className=' text-center mx-auto   '>
             <Image alt="site admin iamge" src={profile_img} className='mx-auto text-center py-3 rounded-full' width={150} height={200}/>
-    <div><p className='font-semibold text-lg capitalize'>{name}</p></div>
+    <div ><p className='font-semibold text-lg capitalize'>{name}   </p></div>
             <p className={`text-[${colorSchima.text_color}] capitalize border-b pb-4`}>{title}</p>
         </div>
         <div className='py-3 leading-8'>
             <div className='flex justify-between items-center capitalize'><p> Residence:</p> <p className='text-gray-500'>{residence}</p> </div>
             <div className='flex justify-between items-center capitalize'><p> City:</p> <p className='text-gray-500'>{city}</p> </div>
+            <div className='flex justify-between items-center capitalize'><p> Field:</p> <p className='text-gray-500'>Full-stuck</p> </div>
             <div className='flex justify-between items-center capitalize'><p> Age:</p> <p className='text-gray-500'> {age}+</p> </div>
-            <div className='flex justify-between items-center capitalize'><p> Status:</p> <AiOutlineSafetyCertificate className='text-[#00bc91] text-lg'/> </div>
         </div>
         <div className=' px-2 my-4   border-t py-6'>
             <p className='font-semibold'>Skills</p>

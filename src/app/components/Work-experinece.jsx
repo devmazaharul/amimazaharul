@@ -8,7 +8,7 @@ export default function Workexperinece() {
   } = site_data;
 
   return (
-    <div className="py-16 px-4 bg-white rounded-xl  mb-4 ">
+    <div className="py-16 capitalize px-4 bg-white rounded-xl  mb-4 ">
       <div>
         <p className="flex items-center gap-1 border rounded-full w-fit px-2 py-1 text-sm uppercase text-gray-500 mb-6 ">
           {title}

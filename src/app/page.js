@@ -1,15 +1,16 @@
 import About from "./components/About";
+import {  CarouselDemo } from "./components/Carosel";
 import Conactpage from "./components/Contact";
 import Education from "./components/Education";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Services from "./components/Services";
 import Testimonial from "./components/Testimonial";
-
 import Workexperinece from "./components/Work-experinece";
 
 export default function Home() {
-  
+
+     
   return (
  <>
 
@@ -19,9 +20,10 @@ export default function Home() {
   <Services/>
   <Workexperinece/>
   <Education/>
-  <Testimonial/>
+  <CarouselDemo/>
   <Conactpage/>
   <Footer/>
+
 
 </div>
   

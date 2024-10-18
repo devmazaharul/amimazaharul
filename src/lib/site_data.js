@@ -117,76 +117,76 @@ export const site_data = {
       {
         name: "Fronted web design",
         sortdescribe:
-          "I design products that are more than pretty. I make them shippable.",
+          "I can create user-friendly interfaces, ensuring visually appealing layouts and smooth interactions for an optimal user experience.",
         iconName: "web_design",
       },
       {
-        name: "backend web development",
+        name: "Backend web development",
         sortdescribe:
-          "I design products that are more than pretty. I make them shippable.",
+          "I can builds and maintains server-side applications, managing databases, APIs, and ensuring seamless data flow and application functionality.",
         iconName: "web_development",
       },
       {
         name: "Grapich design",
         sortdescribe:
-          "I design products that are more than pretty. I make them shippable.",
-        iconName: "seo",
+          "Graphic design combines art and technology to communicate ideas visually through various media.",
+        iconName: "grapich11_design",
       },
       {
-        name: "Branding & Strategy",
+        name: "Digital marketing",
         sortdescribe:
-          "I design products that are more than pretty. I make them shippable.",
-        iconName: "branding",
+          "I can promotes products online using strategies like SEO, social media, and email.",
+        iconName: "digital_marketing",
       },
     ],
   },
   work_exprerience: {
     title: "Work Experience",
     sortDesc:
-      "I design products that are more than pretty. I make them shippable and usable, tempor non mollit dolor et do aute.",
+      "All the real work experience I have in my life is Presented in The Form Of a Table.",
     platforms: [
       {
         name: "Upwork",
-        title: "Lead ux designer",
-        text: "Owing to advancements in product other designer technologies aute voluptate.",
+        title: "Fronted web design",
+        text: "I can create user-friendly interfaces, ensuring optimal user experience.",
         stayTime: "Mar, 2022 - Current",
       },
       {
-        name: "Google",
-        title: "UX Designer",
-        text: "Owing to advancements in product other designer technologies aute voluptate.",
-        stayTime: "2018-2022",
+        name: "Fiverr",
+        title: "Web deisng and Digital marketing",
+        text: "I can create user-friendly interfaces, And dital marketing experiences.",
+        stayTime: "2020-2023",
       },
       {
-        name: "Apple",
-        title: "Human Interface Designer",
-        text: "Owing to advancements in product other designer technologies aute voluptate.",
-        stayTime: "2014-2018",
+        name: "Linkdin",
+        title: "Full-stuck web developer",
+        text: "I can create user-friendly interfaces, ensuring optimal user experience.",
+        stayTime: "2020-2024",
       },
     ],
   },
   education: {
     title: "My Education",
     sortDesc:
-      "I design products that are more than pretty. I make them shippable and usable, tempor non mollit dolor et do aute.",
+      "Below is a Detailed Table About My Readings Step By Step.",
     university: [
       {
-        name: "Oxford University",
-        title: "Diploma in Computer",
-        text: "Owing to advancements in product other designer technologies aute voluptate.",
-        stayTime: "Mar, 2022 - Current",
+        name: "Jessore Govt. City College",
+        title: "Bachelor of Business Administration (BBA)",
+        text: "Bachelor of Business Administration focuses on business principles and management skills.",
+        stayTime: "Mar, 2024 - Current",
       },
       {
-        name: "Google",
-        title: "BSc in Engineering",
-        text: "Owing to advancements in product other designer technologies aute voluptate.",
-        stayTime: "Mar, 2020",
+        name: "Rupdia Shahid Smrity College",
+        title: " Higher Secondary School Certificate (HSC)",
+        text: "Higher Secondary Certificate confirms completion of higher secondary education curriculum.",
+        stayTime: "Dec, 2023",
       },
       {
-        name: "Oxford University",
-        title: "Human Interface Designer",
-        text: "Owing to advancements in product other designer technologies aute voluptate.",
-        stayTime: "Mar, 2019",
+        name: "Rupdia Welfare Academy",
+        title: "Secondary School Certificate (SSC)",
+        text: "Secondary School Certificate verifies completion of secondary education curriculum.",
+        stayTime: "Feb, 2021",
       },
     ],
   },
