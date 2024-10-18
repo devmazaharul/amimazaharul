@@ -1,9 +1,5 @@
 import About from "./components/About";
-<<<<<<< HEAD
 import {  CarouselDemo } from "./components/Carosel";
-=======
-import { CarouselDemo } from "./components/Carosel";
->>>>>>> origin/master
 import Conactpage from "./components/Contact";
 import Education from "./components/Education";
 import Footer from "./components/Footer";
