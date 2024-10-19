@@ -200,7 +200,7 @@ export const site_data = {
         message:
           " is a game-changer. Their coding expertise and commitment to quality make every project a success.",
         ratig: 5,
-        status: "Developer",
+        status: "Engier",
         client_image: "/author1.png",
       },
       {
@@ -208,23 +208,23 @@ export const site_data = {
         message:
           " is a game-changer. Their coding expertise and commitment to quality make every project a success.",
         ratig: 4,
-        status: "Developer",
-        client_image: "/images.jfif",
+        status: "Doctor",
+        client_image: "/images.png",
       },
       {
         name: "Alex johnson",
         message:
           " is a game-changer. Their coding expertise and commitment to quality make every project a success.",
         ratig: 2,
-        status: "Developer",
-        client_image: "/images (1).jfif",
+        status: "Businessman",
+        client_image: "/images (1).png",
       },
       {
         name: "Mazaharul islam",
         message:
           " is a game-changer. Their coding expertise and commitment to quality make every project a success.",
         ratig: 3,
-        status: "Developer",
+        status: "Teacher",
         client_image: "/author1.png",
       },
     ],
