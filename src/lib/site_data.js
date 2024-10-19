@@ -200,7 +200,7 @@ export const site_data = {
         message:
           " is a game-changer. Their coding expertise and commitment to quality make every project a success.",
         ratig: 5,
-        status: "Engier",
+        status: "Businessman",
         client_image: "/author1.png",
       },
       {

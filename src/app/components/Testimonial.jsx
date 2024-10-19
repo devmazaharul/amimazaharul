@@ -34,7 +34,7 @@ export default function Testimonial() {
                   src={item.client_image}
                   width={70}
                   height={50}
-                  className="mx-auto mb-3"
+                  className="mx-auto mb-3 rounded-full"
                   alt="client image"
                 ></Image>
                 <p className="text-yellow-400  text-4xl">
