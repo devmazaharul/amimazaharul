@@ -209,7 +209,7 @@ export const site_data = {
           " is a game-changer. Their coding expertise and commitment to quality make every project a success.",
         ratig: 4,
         status: "Developer",
-        client_image: "/author1.png",
+        client_image: "/images.jfif",
       },
       {
         name: "Alex johnson",
@@ -217,7 +217,7 @@ export const site_data = {
           " is a game-changer. Their coding expertise and commitment to quality make every project a success.",
         ratig: 2,
         status: "Developer",
-        client_image: "/author1.png",
+        client_image: "/images (1).jfif",
       },
       {
         name: "Mazaharul islam",
