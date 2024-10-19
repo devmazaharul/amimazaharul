@@ -32,6 +32,7 @@ export default function Testimonial() {
               >
                 <Image
                   src={item.client_image}
+                  style={{borderRadius:"50%"}}
                   width={70}
                   height={50}
                   className="mx-auto mb-3 rounded-full"
