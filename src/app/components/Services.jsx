@@ -29,7 +29,7 @@ export default function Services() {
                <div key={Math.random()} className=' md:m-2 my-2 text-gray-500 border rounded-md mx-auto '>
 
              <div className=' block  rounded-md px-4 py-6 text-left leading-6'>
-                <p className='pb-2'>{item.iconName=="web_design"?<SiAntdesign className={`text-[${colorSchima.text_color}] text-2xl`}/>:item.iconName=="web_development"?<FaNodeJs className={`text-[${colorSchima.text_color}] text-2xl`}/>:item.iconName=="seo"?<MdGraphicEq className={`text-[${colorSchima.text_color}] text-2xl`}/>:item.iconName=="branding"?<TbBrandBumble className={`text-[${colorSchima.text_color}] text-2xl`}/>:'Icon'}</p>
+                <p className='pb-2'>{item.iconName=="web_design"?<SiAntdesign className={`text-[${colorSchima.text_color}] text-2xl`}/>:item.iconName=="web_development"?<FaNodeJs className={`text-[${colorSchima.text_color}] text-2xl`}/>:item.iconName=="grapich_design"?<MdGraphicEq className={`text-[${colorSchima.text_color}] text-2xl`}/>:item.iconName=="digital_marketing"?<TbBrandBumble className={`text-[${colorSchima.text_color}] text-2xl`}/>:'Icon'}</p>
                 <h1 className='text-xl pb-2 font-semibold'>{item.name}</h1>
                 <p>{item.sortdescribe}</p>
                

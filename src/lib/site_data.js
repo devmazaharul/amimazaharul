@@ -130,7 +130,7 @@ export const site_data = {
         name: "Grapich design",
         sortdescribe:
           "Graphic design combines art and technology to communicate ideas visually through various media.",
-        iconName: "grapich11_design",
+        iconName: "grapich_design",
       },
       {
         name: "Digital marketing",
