@@ -67,7 +67,7 @@ export const site_data = {
     contactInfo: [
       {
         name: "Phone",
-        text: "01797575932",
+        text: "01797**5932",
       },
       {
         name: "Email",
