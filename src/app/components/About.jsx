@@ -3,7 +3,6 @@ import React from "react";
 
 import { TbMessage2Question } from "react-icons/tb";
 
-
 export default function About() {
   const {
     about_section: { title, desc, work_status, contactInfo },
@@ -13,7 +12,7 @@ export default function About() {
     <div className="py-16 px-4 bg-white rounded-xl  mb-4 ">
       <div>
         <p className="flex items-center gap-1 border rounded-full w-fit px-2 py-1 text-sm uppercase text-gray-500 mb-6 ">
-         about
+          about
           <TbMessage2Question className="text-[#00bc91]" />
         </p>
       </div>
@@ -32,8 +31,14 @@ export default function About() {
                   <td className="py-2 px-3 text-left md:w-[30%] hidden md:block  text-sm md:text-md ">
                     {item.name}
                   </td>
-                  <td className="py-2 md:px-3 text-left md:w-[10%]  md:hidden text-sm md:text-md"> {item.name.slice(0,2)}. </td>
-                  <td className="py-2 md:px-3 text-left md:w-[10%]   text-sm md:text-md"> : </td>
+                  <td className="py-2 md:px-3 text-left md:w-[10%]  md:hidden text-sm md:text-md">
+                    {" "}
+                    {item.name.slice(0, 2)}.{" "}
+                  </td>
+                  <td className="py-2 md:px-3 text-left md:w-[10%]   text-sm md:text-md">
+                    {" "}
+                    :{" "}
+                  </td>
                   <td className="py-2 px-3 text-left md:w-[58%] w-[80%] text-sm md:text-md">
                     {item.text}
                   </td>

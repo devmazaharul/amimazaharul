@@ -11,7 +11,7 @@ export const site_data = {
     title: "Web developer",
     personal_info: {
       download_link: "/mazaharul_resume.pdf",
-      age: "18",
+      experience: "4y +",
       city: "Jessore",
       residence: "Bangladesh",
       skills: [
@@ -21,13 +21,18 @@ export const site_data = {
           status: "Expert",
         },
         {
+          name: "Rest api",
+          percent: 90,
+          status: "Expert",
+        },
+        {
           name: "Express js",
-          percent: 85,
+          percent: 89,
           status: "Medium",
         },
         {
           name: "Node js",
-          percent: 60,
+          percent: 90,
           status: "Medium",
         },
         {
@@ -63,7 +68,7 @@ export const site_data = {
   },
   about_section: {
     title: "About Me",
-    desc: "I'm Mazaharul Islam, a dedicated web developer with a passion for crafting dynamic and user-friendly websites.I specialize in creating seamless digital experiences using Next.js, React.js and Node.js. My goal is to turn ideas into reality with clean, efficient code.",
+    desc: "I'm Mazaharul Islam, a dedicated web developer with a passion for crafting dynamic and user-friendly websites.I specialize in creating seamless digital experiences using Next.js, React.js and Node.js. My goal is to turn ideas into reality with clean, efficient code.And others experience is yaml,docker,aws,sawgger openapi , microsirvices, well english",
     contactInfo: [
       {
         name: "Phone",
@@ -167,8 +172,7 @@ export const site_data = {
   },
   education: {
     title: "My Education",
-    sortDesc:
-      "Below is a Detailed Table About My Readings Step By Step.",
+    sortDesc: "Below is a Detailed Table About My Readings Step By Step.",
     university: [
       {
         name: "Jessore Govt. City College",
