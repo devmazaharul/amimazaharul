@@ -75,7 +75,7 @@ export default function Sidebar() {
             }] px-6 py-2 rounded-full text-gray-100`}
             href={download_link}
           >
-            Download
+            See resume
           </Link>
         </div>
       </div>

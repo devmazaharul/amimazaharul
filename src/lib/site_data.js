@@ -10,7 +10,7 @@ export const site_data = {
     name: "Mazaharul islam",
     title: "Web developer",
     personal_info: {
-      download_link: "/mazaharul_resume.pdf",
+      download_link: "/Mazaharul-full-stack.pdf",
       experience: "4y +",
       city: "Jessore",
       residence: "Bangladesh",
