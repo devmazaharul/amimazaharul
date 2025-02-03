@@ -34,29 +34,21 @@ export default function useConactpage() {
       ) {
         let writeMsg = `<p  style="font-family: monospace;text-transform: capitalize;line-height: 13px><p>mailer name: ${contactstate.name}</p><p>mailer email :${contactstate.email}</p><div ><p>Message,</p> <p style="line-height: 20px">${contactstate.message}</p></div><div>`;
 
-        const result = await fetch("https://amimazaharul.vercel.app/api/mail", {
+        const result = await fetch("https://amimazaharul.vercel.app/api/sendmail", {
           method: "POST",
           headers: {
             "content-type": "application/json",
           },
-          body: JSON.stringify({ messagebody: writeMsg }),
+          body: JSON.stringify({message:writeMsg, subject:"Thanks for contact"}),
         });
-        if (result.ok) {
-          const { status, message } = await result.json();
-          if (status == 200) {
-            toast.success("Thanks " + contactstate.name);
-            setcontactstate(formObj);
-            setLoading(false);
-          } else if (status == 201) {
-            toast.error(message);
-            setcontactstate(formObj);
-            setLoading(false);
-          } else {
-            toast.error(message);
-            setcontactstate(formObj);
-            setLoading(false);
-          }
+        if(result.status==200){
+          toast.success("Thanks for contact")
+          setLoading(false)
+        }else{
+          toast.error("Email not send")
+          setLoading(false)
         }
+       
       } else {
         toast.error("Empty box");
         setLoading(false);

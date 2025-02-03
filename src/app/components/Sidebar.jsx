@@ -45,7 +45,7 @@ export default function Sidebar() {
         </div>
         <div className="flex justify-between items-center capitalize">
           <p> Status:</p>{" "}
-          <AiOutlineSafetyCertificate className="text-[#00bc91] text-lg" />{" "}
+         <div className="text-gray-500 flex items-center gap-1"> Full stack<AiOutlineSafetyCertificate className="text-[#00bc91] text-lg" />{" "}</div>
         </div>
       </div>
       <div className=" px-2 my-4   border-t py-6">
