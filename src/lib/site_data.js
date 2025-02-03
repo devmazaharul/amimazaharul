@@ -254,5 +254,5 @@ export const site_data = {
     currentLoaction:
       "https://www.google.com/maps/place/Downtown+Brooklyn,+Brooklyn,+NY,+USA/@40.697488,-73.979681,13z/data=!4m6!3m5!1s0x89c25a4a8a2a0203:0xdff417da15980851!8m2!3d40.6960679!4d-73.9845407!16zL20vMDUxeDB5?hl=en&entry=ttu",
   },
-  footer: "© All rights are reserved by mazaharul islam 2024.",
+  footer: "© All rights are reserved by mazaharul islam 2025.",
 };
