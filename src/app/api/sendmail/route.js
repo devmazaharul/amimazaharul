@@ -20,16 +20,14 @@ export async function POST(req) {
         }
     });
 
-    // Email options
-    const mailOptions = {
+
+    // Send Email
+    await transporter.sendMail({
       from: '"Contact request👻" <work.mazaharul@gmail.com>',
       to:"devmazaharul@gmail.com",
       subject,
       html: message,
-    };
-
-    // Send Email
-    await transporter.sendMail(mailOptions);
+    });
 
 
     return new Response(JSON.stringify({ success: true }), { status: 200 });
